@@ -149,3 +149,6 @@ See the [detailed troubleshooting section](./SETUP_GUIDE.md#9-troubleshooting) f
 Kreo is credited to **[rock-forge](https://github.com/rock-forge)**. This is a **source-available** release for normal noncommercial use under [LICENSE](./LICENSE). **Commercial use, resale, and public redistribution of modified versions require rock-forge's written permission.** Read the license for the complete permitted use, attribution requirements, and restrictions.
 
 Third-party components remain subject to their own terms. See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md) and the licenses distributed with the dependencies.
+
+Read the [copyright notice](./COPYRIGHT-NOTICE.md) or download the
+[notice PDF](./docs/Kreo-Copyright-Notice.pdf).
