@@ -1,0 +1,159 @@
+KREO SOURCE-AVAILABLE LICENSE
+Version 1.0 — 2 November 2026
+
+Copyright (c) 2026 rock-forge.
+All rights reserved except for the limited permissions expressly granted below.
+
+This is a custom source-available license, not an OSI-approved open-source
+license. Public access to the source does not grant unrestricted use,
+redistribution, commercial exploitation, or a right to remove attribution.
+
+1. DEFINITIONS AND SCOPE
+
+"Owner" means rock-forge, to the extent it owns the relevant rights or is
+authorized to license them. "Software" means the Kreo source code and project
+documentation released with this license, together with project assets only
+to the extent the Owner can grant rights in those assets. "You" means a person
+or entity exercising a permission granted by this license.
+
+"Third-Party Material" means dependencies, upstream code, fonts, libraries,
+artwork, and other material subject to another rights holder's terms. It is
+excluded from the restrictions and grants of this license and remains governed
+by its applicable upstream terms. Consult THIRD_PARTY_NOTICES.md and the
+applicable upstream licenses. Nothing here withdraws or narrows a permission
+that a third party has independently granted.
+
+"Commercial Use" means use primarily intended for commercial advantage or
+monetary compensation, including use in a for-profit business, paid hosting,
+selling copies or deployments, paid bot features, charging for access to the
+Software, or incorporating it into a commercial service.
+
+2. LIMITED NONCOMMERCIAL PERMISSION
+
+Subject to compliance with this license, the Owner grants You a non-exclusive,
+worldwide, royalty-free, non-sublicensable permission to:
+
+  a. download and study the Software;
+  b. run and self-host it for personal or community noncommercial use; and
+  c. make private modifications for those permitted deployments.
+
+You may operate a permitted noncommercial bot for a public community. Making
+the bot available for use does not give You permission to distribute its
+source code, a packaged deployment, or a modified public release.
+
+Serving browser assets as necessary to operate Your permitted noncommercial
+dashboard is allowed, including assets built from Your private modifications.
+This operational permission does not authorize offering source repositories,
+downloadable code releases, or deployable packages to others.
+
+You may make personal backups and provide confidential operational access to
+administrators or hosting providers solely to run Your permitted deployment.
+That access does not authorize their independent exploitation or redistribution
+of the Software.
+
+Exercising these permissions requires compliance with their conditions.
+Merely reading the license does not waive any right available under law.
+
+3. ATTRIBUTION AND MODIFICATIONS
+
+Keep this license, applicable copyright and author notices, and required
+third-party notices intact. Do not claim the original Kreo work as Your own.
+
+Retain a reasonably accessible credit in the bot's Help or About interface and
+the dashboard's About, Terms, or footer area. The credit must identify the
+original project and Owner, for example:
+
+    Kreo by rock-forge — https://github.com/rock-forge/Kreo
+
+You may name Your own instance and change its configuration, provided the
+required attribution remains clear and You do not imply official endorsement.
+If redistribution of modifications is separately authorized, identify Your
+changes clearly and preserve the original author and licensing notices.
+
+4. ACTIVITIES REQUIRING PRIOR WRITTEN PERMISSION
+
+The following require explicit prior written permission from the Owner:
+
+  a. any Commercial Use;
+  b. selling, licensing onward, renting, or commercially hosting the Software;
+  c. publishing or redistributing modified versions, including rebranded
+     releases, public modified repositories, packages, archives, container
+     images, or compiled distributions; and
+  d. redistributing unmodified copies outside an Owner-authorized distribution
+     channel, except where independent platform terms or applicable law permit it.
+
+Keeping attribution does not, by itself, authorize these activities.
+Permission to make private changes does not authorize public modified releases.
+Silence, a star, a fork, a download, or a permission request is not written consent.
+
+Written permission must come from the Owner or its authorized representative
+and identify the recipient, covered material or release, permitted activity,
+and any applicable conditions. Request permission through the repository's
+maintainers; do not assume it has been granted until it is explicit.
+
+5. PLATFORM RIGHTS, EXCEPTIONS, AND INDEPENDENT WORK
+
+Nothing in this license overrides platform-specific viewing or forking
+permissions that the Owner grants by publishing on a platform such as GitHub.
+Those platform permissions do not create a general commercial-use or external
+redistribution license.
+
+Nothing restricts fair use, fair dealing, an applicable statutory exception,
+or a right obtained independently under another valid license or permission.
+This license does not confer ownership of ideas, functionality, algorithms,
+independently created code, or someone else's original additions.
+
+6. DEMONSTRATIONS AND BRANDING
+
+For noncommercial purposes and subject to Section 4, You may publish screenshots
+and demonstrations of a permitted deployment,
+including tutorials, with clear Kreo and rock-forge attribution and a project
+link in the accompanying description or another reasonably adjacent location.
+This does not authorize redistribution of the Software or publication of
+substantial source code prohibited above. Applicable legal exceptions remain
+unaffected even where that demonstration permission is not relied upon.
+
+No general trademark or endorsement license is granted. Identification of
+Kreo and the Owner as required by this license is permitted. Branding and
+AI-assisted assets do not carry a representation that every element is
+exclusively copyrightable or solely human-authored.
+
+7. OWNERSHIP AND TERMINATION
+
+This license transfers no copyright ownership. The Owner retains the rights
+it actually holds. You retain rights You actually hold in Your original
+contributions, subject to permissions needed for any incorporated Software.
+
+The permissions granted here terminate automatically upon a material breach
+of their conditions, to the extent permitted by applicable law. Stop activities
+that depend on a terminated permission. The Owner may reinstate permissions
+in writing after a breach is remedied; mandatory legal protections remain
+unaffected. Separate written permissions are governed by their own terms.
+
+Future license changes do not simply retract valid rights already granted
+for an earlier release or independent third-party permissions.
+
+8. NO WARRANTY; LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTIES OF ANY KIND, INCLUDING MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT. TO THAT SAME EXTENT,
+THE OWNER AND CONTRIBUTORS ARE NOT LIABLE FOR CLAIMS, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THE SOFTWARE OR ITS USE. RIGHTS AND LIABILITIES THAT
+CANNOT LAWFULLY BE EXCLUDED REMAIN UNAFFECTED.
+
+9. APPLICABLE LAW AND ENFORCEMENT
+
+Available remedies, jurisdiction, and enforceability are determined by
+applicable law. No exclusive court or governing country is designated here.
+The Owner may seek remedies for infringement or an enforceable breach where
+the facts and law support them.
+
+This license creates no automatic fine, guaranteed damages, ownership of
+another person's independent work, or guaranteed right to remove an entire
+repository, video, or channel. Any removal request must concern actual alleged
+infringement and follow the relevant legal and platform procedures.
+
+If a provision is unenforceable, the remaining provisions continue to the
+extent permitted by law. Any separate permission or waiver must be explicit
+and in writing.

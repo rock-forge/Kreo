@@ -1,0 +1,42 @@
+.kreo-command-trigger {display:inline-flex;align-items:center;gap:.7rem;min-height:44px;min-width:44px;padding:.55rem .8rem;border:1px solid #b39bd11c;border-radius:.85rem;background:linear-gradient(130deg,#c4a2ff0b,#ffffff02);color:#a99bbd;transition:border-color .2s,color .2s,background .2s;font-size:.75rem}
+.kreo-command-trigger:hover {border-color:#bd9ef052;color:#e0d1f9;background:#c4a2ff0e}
+.kreo-command-trigger > span {white-space:nowrap}
+.kreo-command-trigger kbd {margin-left:1.4rem;border:1px solid #d6b7f21c;border-radius:.3rem;padding:.15rem .3rem;font-size:.6rem;line-height:1.3;color:#8f7fa5}
+.kreo-command-dialog {position:fixed;inset:0;width:min(660px,calc(100vw - 32px));max-width:calc(100vw - 32px);max-height:calc(100dvh - 48px);margin:min(12vh,100px) auto auto;padding:0;overflow:hidden;border:1px solid #c4a2ff35;border-radius:1.6rem;background:#110c1b;color:#f4edff;box-shadow:0 40px 140px #000b,0 0 90px #6a2bad1a}
+.kreo-command-dialog::backdrop {background:#05030bbd;backdrop-filter:blur(7px)}
+.kreo-command-dialog[open] {animation:kreo-command-reveal .18s ease-out}
+.kreo-command-panel {display:flex;flex-direction:column;min-width:0;max-height:calc(100dvh - 48px);background:radial-gradient(ellipse at 95% 0,#7d42aa29,transparent 55%),linear-gradient(155deg,#1b1127,#0e0b14 65%)}
+.kreo-command-heading {display:flex;flex-shrink:0;align-items:center;justify-content:space-between;gap:1rem;padding:1.5rem 1.65rem 1.1rem}
+.kreo-command-heading p {font-size:.6rem;letter-spacing:.17em;font-weight:600;color:#9983ad}
+.kreo-command-heading h2 {margin-top:.45rem;font-size:1.65rem;font-weight:650;letter-spacing:-.045em;line-height:1.2}
+.kreo-command-heading > button {display:grid;place-items:center;flex-shrink:0;width:44px;height:44px;border-radius:50%;color:#b19cc7;transition:color .2s,background .2s}
+.kreo-command-heading > button:hover {background:#d9bcff0b;color:#fff}
+.kreo-command-input {display:flex;flex-shrink:0;align-items:center;gap:.85rem;min-width:0;margin:0 1.65rem .85rem;padding:.9rem 0;border-bottom:1px solid #c4a2ff2e;color:#c9a9f3}
+.kreo-command-input > svg {flex-shrink:0}
+.kreo-command-input input {min-width:0;flex:1;background:transparent;border:0;outline:none;font-size:1rem;line-height:1.6;color:#f4edff}
+.kreo-command-input input::placeholder {color:#8f7f9e}
+.kreo-command-input input:focus-visible {outline:0}
+.kreo-command-input > kbd {padding:.2rem .3rem;border:1px solid #bba2d222;border-radius:.3rem;font-size:.62rem;color:#8f7f9e}
+.kreo-command-error {margin:0 1.65rem .7rem;padding:.7rem .8rem;border-left:2px solid #bd94e4;background:#bd94e408;color:#cfc0df;font-size:.75rem;line-height:1.6;overflow-wrap:anywhere}
+.kreo-command-results {min-width:0;min-height:120px;max-height:50dvh;overflow-y:auto;overscroll-behavior:contain;padding:0 .8rem 1rem;scrollbar-width:thin;scrollbar-color:#56376c transparent}
+.kreo-command-group {padding:.9rem .9rem .45rem;font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:#867393}
+.kreo-command-option {display:flex;align-items:center;gap:.85rem;width:100%;min-width:0;min-height:64px;padding:.7rem .9rem;border:1px solid transparent;border-radius:.85rem;text-align:left;transition:background .15s,border-color .15s}
+.kreo-command-option[aria-selected="true"] {background:linear-gradient(100deg,#b98af21a,#b98af208);border-color:#c6a0f21c}
+.kreo-command-icon {display:grid;place-items:center;flex:0 0 36px;width:36px;height:36px;border-radius:.75rem;background:linear-gradient(145deg,#b98af21d,#b98af207);color:#cba8f6}
+.kreo-command-option-copy {display:block;min-width:0;flex:1}
+.kreo-command-option-copy strong {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.83rem;font-weight:600;line-height:1.5}
+.kreo-command-option-copy small {display:block;margin-top:.2rem;font-size:.67rem;line-height:1.5;color:#9988ac}
+.kreo-command-arrow {flex-shrink:0;color:#8d709e}
+.kreo-command-option[aria-selected="true"] .kreo-command-arrow {color:#dfc5ff}
+.kreo-command-empty {display:flex;min-height:170px;flex-direction:column;align-items:center;justify-content:center;gap:.8rem;padding:1.5rem;text-align:center;color:#9f89b4}
+.kreo-command-empty strong {color:#d8cae7;font-size:.9rem}
+.kreo-command-empty p {max-width:260px;font-size:.75rem;line-height:1.7}
+.kreo-command-loading {display:flex;align-items:center;justify-content:center;gap:.6rem;padding:1rem;color:#aa94bf;font-size:.73rem}
+.kreo-command-footer {display:flex;flex-shrink:0;align-items:center;gap:1.1rem;flex-wrap:wrap;padding:.85rem 1.65rem;border-top:1px solid #e2c6ff0a;font-size:.62rem;color:#897597}
+.kreo-command-footer > span {display:inline-flex;align-items:center;gap:.35rem}
+.kreo-command-footer > span:last-child {margin-left:auto;color:#a08bae}
+.kreo-command-footer kbd {display:inline-grid;min-width:17px;place-items:center;border:1px solid #a789c122;border-radius:.2rem;padding:.1rem .15rem;line-height:1}
+@keyframes kreo-command-reveal {from{opacity:0;transform:translateY(-8px) scale(.99)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:1023px) {.kreo-command-trigger {justify-content:center;padding:.55rem;border-color:transparent;background:transparent}.kreo-command-trigger > span,.kreo-command-trigger > kbd {display:none}}
+@media(max-width:639px) {.kreo-command-dialog {width:calc(100vw - 24px);max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);margin:12px auto auto;border-radius:1.2rem}.kreo-command-panel {max-height:calc(100dvh - 24px)}.kreo-command-dialog::backdrop {backdrop-filter:none}.kreo-command-heading {padding:1.1rem 1rem .6rem}.kreo-command-heading h2 {font-size:1.45rem}.kreo-command-input {margin:0 1rem .6rem;gap:.65rem}.kreo-command-input > kbd {display:none}.kreo-command-input input {font-size:16px}.kreo-command-results {padding:0 .4rem .7rem;max-height:60dvh}.kreo-command-option {gap:.65rem;padding:.7rem}.kreo-command-option-copy strong {font-size:.8rem}.kreo-command-footer {padding:.85rem 1rem}.kreo-command-footer > span:last-child {display:none}}
+@media(prefers-reduced-motion:reduce) {.kreo-command-dialog[open] {animation:none}.kreo-command-trigger,.kreo-command-option {transition:none}}

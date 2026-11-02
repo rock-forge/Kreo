@@ -1,0 +1,42 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.12.0",
+    "mongoose": "^9.6.0",
+    "next": "^16.2.6",
+    "next-auth": "^4.24.14",
+    "react": "~19.2.4",
+    "react-dom": "~19.2.4",
+    "socket.io-client": "^4.8.3",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "^16.4.2",
+    "tailwindcss": "^4"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  },
+  "author": "rock-forge",
+  "license": "SEE LICENSE IN ../LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rock-forge/Kreo.git"
+  },
+  "homepage": "https://github.com/rock-forge/Kreo#readme",
+  "bugs": {
+    "url": "https://github.com/rock-forge/Kreo/issues"
+  }
+}

@@ -1,0 +1,89 @@
+.landing-shell {
+  background: radial-gradient(ellipse at 83% 5%, #61228c26, transparent 43%), #0b0812;
+}
+.landing-shell > header {
+  border-bottom: 1px solid #dbbdff0c;
+}
+.landing-gradient-text {
+  color: #d3afff;
+  background: linear-gradient(100deg, #efdcff 0%, #c699fc 55%, #ab78ee 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.landing-hero-stage {
+  perspective: 1000px;
+}
+.landing-hero-stage::before {
+  content: "";
+  position: absolute;
+  inset: 8% -12%;
+  background: radial-gradient(ellipse, #a55de323, transparent 62%);
+  pointer-events: none;
+}
+.landing-orbit {
+  position: absolute;
+  inset: 5% -10%;
+  border: 1px solid #d5b5ff18;
+  border-radius: 50%;
+  transform: rotate(-22deg) rotateX(55deg);
+  box-shadow: inset 0 1px 0 #e4cbff0a, 0 0 40px #a76ce609;
+}
+.landing-feature {
+  position: relative;
+  transition: border-color .3s;
+}
+.landing-feature-icon {
+  display: grid;
+  height: 56px;
+  width: 56px;
+  place-items: center;
+  color: #e5cfff;
+  border-radius: 17px;
+  border: 1px solid #e3c8ff30;
+  background: linear-gradient(140deg, #74529a, #342146 70%);
+  box-shadow: inset 1px 1px 0 #f1ddff33, 3px 5px 0 #180f25, 0 14px 28px #08020d66;
+  transform: rotate(-6deg) perspective(500px) rotateY(-12deg);
+  transition: transform .4s;
+}
+.landing-feature:hover {border-color: #c3a0f744}
+.landing-feature:hover .landing-feature-icon {
+  transform: rotate(0deg) perspective(500px) rotateY(0deg) translateY(-4px);
+}
+.landing-finale {
+  isolation: isolate;
+  position: relative;
+  min-width: 0;
+  margin-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-top: 1px solid #d2afff21;
+  border-bottom: 1px solid #d2afff16;
+  background: linear-gradient(130deg, #291638, #160f20);
+}
+.landing-finale > * {position: relative;z-index: 1}
+.landing-finale button {
+  background: #170f22cc;
+  box-shadow: inset 0 1px 0 #f2dbff0a;
+}
+@media (min-width: 1024px) {
+  .landing-finale {min-height: 310px;flex-direction: column;align-items: flex-start;justify-content: center;gap: 1.5rem;padding: 3rem}
+  .landing-finale::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: linear-gradient(90deg, #140c21 0%, #140c21f5 42%, #140c2166 75%), url("/branding/kreo-banner-v2.webp");
+    background-size: cover;
+    background-position: center right;
+  }
+}
+@media (max-width: 639px) {
+  .landing-shell {background: radial-gradient(ellipse at 95% 3%, #61228c1a, transparent 34%), #0b0812}
+  .landing-hero h1 {font-size: clamp(2.8rem, 12vw, 4rem)}
+  .landing-feature-icon {width: 46px;height: 46px;border-radius: 14px;transform: none;box-shadow: inset 1px 1px 0 #f1ddff22, 2px 3px 0 #180f25}
+  .landing-finale {margin-bottom: 1.5rem;padding-left: 1.25rem;padding-right: 1.25rem}
+}
+@media (prefers-reduced-motion: reduce) {
+  .landing-feature-icon {transform: none!important;transition: none}
+}

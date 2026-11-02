@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dashboard/node_modules/
+dashboard/.next/
+dashboard/.env*
+!dashboard/.env.example
+npm-debug.log*
+.ssh/
+*.pem
+*.key
+*.log
+coverage/
+output/
+tmp/
+.DS_Store

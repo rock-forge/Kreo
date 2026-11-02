@@ -1,0 +1,41 @@
+name: Validate Kreo
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
+      NEXTAUTH_URL: http://localhost:3000
+      DISCORD_TOKEN: ci-test-token-not-for-login
+      MONGO_URI: mongodb://127.0.0.1/kreo_ci
+      DASHBOARD_BRIDGE_SECRET: ci-test-bridge-secret-not-for-production
+    steps:
+      - name: Check out the source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Set up Node.js 24
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            dashboard/package-lock.json
+      - name: Install bot dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Install dashboard dependencies
+        run: npm ci --prefix dashboard --no-audit --no-fund
+      - name: Run regression tests
+        run: npm test
+      - name: Lint the dashboard
+        run: npm run lint --prefix dashboard
+      - name: Build the dashboard
+        run: npm run build --prefix dashboard
