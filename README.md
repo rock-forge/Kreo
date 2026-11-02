@@ -20,8 +20,12 @@
   <a href="#quick-start">Quick start</a> ·
   <a href="./SETUP_GUIDE.md">Full setup guide</a> ·
   <a href="#how-it-fits-together">Architecture</a> ·
-  <a href="./LICENSE">License</a>
+  <a href="./LICENSE">License</a> ·
+  <a href="./docs/Kreo-Copyright-Notice.pdf">Copyright notice (PDF)</a>
 </p>
+
+> **Copyright notice:** [View or download the PDF](./docs/Kreo-Copyright-Notice.pdf)
+> issued by **Dev Bhakat / rock-forge**, or [read the text version](./COPYRIGHT-NOTICE.md).
 
 ## What you get
 
